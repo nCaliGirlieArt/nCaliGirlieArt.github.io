@@ -27,7 +27,7 @@ function preload() {
   
   side = loadImage('https://nCaliGirlieArt.github.io/sideredflower.png');
   
-//  affirms= loadImage('https://nCaliGirlieArt.github.io/kim/affirms.png');
+  affirms= loadImage('https://nCaliGirlieArt.github.io/kim/affirms.png');
   
   affirm2= loadImage('https://nCaliGirlieArt.github.io/kim/affirm_2.png');
   
@@ -47,7 +47,7 @@ function preload() {
   
   affirm1= loadImage('https://nCaliGirlieArt.github.io/kim/affirm_1.png');
   
-//  affirm= loadImage('https://nCaliGirlieArt.github.io/kim/affirm.png');
+  affirm= loadImage('https://nCaliGirlieArt.github.io/kim/affirm.png');
   
 }
 
@@ -106,7 +106,7 @@ function draw() {
 
 function levelOne(){
   text("Level 1", width/6, height-20);
-  background(affirm1, 190);
+  background(affirms, 190);
   var distToBall= dist(ballx, bally, mouseX, mouseY);
   if (distToBall <ballSize/8){
     ballx = random(width);
@@ -305,7 +305,7 @@ function levelTen(){
 } // end level ten======================================================
 
 function levelEleven(){
-    background(affirms);
+    background(affirm1);
   
   text("Level 11", width/6, height-20);
   var distToBall= dist(ballx, bally, mouseX, mouseY);

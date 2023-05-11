@@ -27,7 +27,7 @@ function preload() {
   
   side = loadImage('https://nCaliGirlieArt.github.io/sideredflower.png');
   
-//  affirms= loadImage('https://nCaliGirlieArt.github.io/kim/affirms.png');
+  affirms= loadImage('https://nCaliGirlieArt.github.io/kim/affirms.png');
   
   affirm2= loadImage('https://nCaliGirlieArt.github.io/kim/affirm_2.png');
   
@@ -47,12 +47,12 @@ function preload() {
   
   affirm1= loadImage('https://nCaliGirlieArt.github.io/kim/affirm_1.png');
   
-//  affirm= loadImage('https://nCaliGirlieArt.github.io/kim/affirm.png');
+  affirm= loadImage('https://nCaliGirlieArt.github.io/kim/affirm.png');
   
 }
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(600, 600);
   textAlign(CENTER);
   textSize(30);
 

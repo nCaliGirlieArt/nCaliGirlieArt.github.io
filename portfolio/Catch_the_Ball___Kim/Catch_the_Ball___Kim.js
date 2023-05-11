@@ -106,7 +106,7 @@ function draw() {
 
 function levelOne(){
   text("Level 1", width/6, height-20);
-  background(affirm1, 190);
+  background(affirms, 190);
   var distToBall= dist(ballx, bally, mouseX, mouseY);
   if (distToBall <ballSize/8){
     ballx = random(width);
@@ -125,7 +125,7 @@ function levelOne(){
 
 function levelTwo(){
   text("Level 2", width/6, height-20);
-  background(affirm1, 190);
+  background(affirm2, 190);
   var distToBall= dist(ballx, bally, mouseX, mouseY);
   if (distToBall <ballSize/8){
     ballx = random(width);
@@ -143,7 +143,7 @@ function levelTwo(){
 
 function levelThree(){
   text("Level 3", width/6, height-20);
-  background(affirm2, 190);
+  background(affirm3, 190);
   var distToBall= dist(ballx, bally, mouseX, mouseY);
   if (distToBall <ballSize/8){
     ballx = random(width);
@@ -163,7 +163,7 @@ function levelThree(){
 
 function levelFour(){
   text("Level 4", width/6, height-20);
-  background(affirm3, 190);
+  background(affirm4, 190);
   var distToBall= dist(ballx, bally, mouseX, mouseY);
   if (distToBall <ballSize/8){
     ballx = random(width);
@@ -183,7 +183,7 @@ function levelFour(){
 
 function levelFive(){
   text("Level 5", width/6, height-20);
-  background(affirm4, 190);
+  background(affirm5, 190);
   var distToBall= dist(ballx, bally, mouseX, mouseY);
   if (distToBall <ballSize/8){
     ballx = random(width);
@@ -202,7 +202,7 @@ function levelFive(){
 
 function levelSix(){
   text("Level 6", width/6, height-20);
-  background(affirm5, 190);
+  background(affirm6, 190);
   var distToBall= dist(ballx, bally, mouseX, mouseY);
   if (distToBall <ballSize/8){
     ballx = random(width);
@@ -223,7 +223,7 @@ function levelSix(){
 
 function levelSeven(){
   text("Level 7", width/6, height-20);
-  background(affirm6);
+  background(affirm7);
   var distToBall= dist(ballx, bally, mouseX, mouseY);
   if (distToBall <ballSize/8){
     ballx = random(width);
@@ -242,7 +242,7 @@ function levelSeven(){
 
 function levelEight(){
   text("Level 8", width/6, height-20);
-  background(affirm7, 190);
+  background(affirm8, 190);
   var distToBall= dist(ballx, bally, mouseX, mouseY);
   if (distToBall <ballSize/8){
     ballx = random(width);
@@ -261,7 +261,7 @@ function levelEight(){
 
 
 function levelNine(){
-   background(affirm8);
+   background(affirm9);
 
   text("Level 9", width/6, height-20);
   var distToBall= dist(ballx, bally, mouseX, mouseY);
@@ -283,7 +283,7 @@ function levelNine(){
 } // end level nine======================================================
 
 function levelTen(){
-    background(affirm9);
+    background(affirm1);
   
   text("Level 10", width/6, height-20);
   var distToBall= dist(ballx, bally, mouseX, mouseY);
@@ -305,7 +305,7 @@ function levelTen(){
 } // end level ten======================================================
 
 function levelEleven(){
-    background(affirms);
+    background(affirm);
   
   text("Level 11", width/6, height-20);
   var distToBall= dist(ballx, bally, mouseX, mouseY);

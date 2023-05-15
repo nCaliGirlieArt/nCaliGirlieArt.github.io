@@ -28,7 +28,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(600, 600);
   textAlign(CENTER);
   textSize(20);
 } // end setup
